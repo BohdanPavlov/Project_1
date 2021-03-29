@@ -165,7 +165,7 @@ img {
     background-repeat: no-repeat;
     background-position: 70%;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 975px;
 }
 
 .main .container {
