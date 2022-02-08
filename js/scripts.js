@@ -1,7 +1,8 @@
 $(document).ready(function () {
     $('.mobile-button').on('click', function () {
-        $('.navigation').slideDown();
+        // $('.navigation').slideDown();
         $(this).toggleClass('opened');
+        $('.navigation').toggleClass('opened');
     });
 
     $(function () {

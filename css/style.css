@@ -172,7 +172,7 @@ img {
 }
 
 .main-nav {
-    padding: 18px 0 14px;
+    padding: 18px 10px 14px;
 }
 .navigation {
     display: -webkit-box;
@@ -677,7 +677,7 @@ img {
 }
 
 .buy__item h2 {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 58px;
     line-height: 50px;
@@ -687,7 +687,7 @@ img {
 
 .buy__item p {
     text-align: right;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     margin: 0 0 45px;
     line-height: 19px;
 }
@@ -725,7 +725,7 @@ img {
 }
 
 .projects__item .projects-2 {
-    padding: 43px 0px 0px 34px;
+    padding: 43px 0 0 34px;
 }
 
 .projects__item li:last-child {
@@ -741,7 +741,7 @@ img {
 }
 
 .projects__item .text-21 {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 21px;
     line-height: 33px;
     color: #00c0ff;
@@ -806,7 +806,7 @@ img {
     width: 50%;
 }
 .contacts-inner {
-    padding: 0px 220px 0 17px;
+    padding: 0 220px 0 17px;
 }
 
 .about-us {
@@ -935,6 +935,23 @@ img {
         background: #000;
         z-index: 20;
     }
+
+    .navigation.opened{
+        display: block;
+    }
+
+    .navigation.opened li .navigation__item{
+        margin: 0;
+    }
+
+    .navigation.opened li{
+        margin: 0 0 10px 0;
+    }
+
+    .navigation.opened li:last-child{
+        margin: 0;
+    }
+
     .header {
         top: 0;
     }
@@ -983,18 +1000,18 @@ img {
     }
 
     .projects__item img {
-        padding: 41px 0px 0 0;
+        padding: 41px 0 0 0;
         display: none;
     }
     .projects__item .projects-2 {
-        padding: 43px 0px 35px 0px;
+        padding: 43px 0 35px 0;
     }
 
     .projects__item .col-50 {
         width: 100%;
     }
     .projects__item .text-21 {
-        font-family: "Raleway";
+        font-family: "Raleway", sans-serif;
         font-size: 21px;
         line-height: 33px;
         color: #00c0ff;
@@ -1303,7 +1320,7 @@ img {
     }
 
     .quote-2 .text-21 {
-        font-size: 14px;
+        font-size: 17px;
         text-align: center;
         line-height: 20px;
     }
